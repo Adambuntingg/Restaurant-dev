@@ -55,11 +55,11 @@ img {
 
 /* slider */
 .slider-1 {
-    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4) ), url(./assets/images/pexels-pixabay-262978.jpg);
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4) ), url(../assets/images/pexels-pixabay-262978.jpg);
 }
 
 .slider-2 {
-    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4) ), url(./assets/images/pexels-jonathan-borba-2983101.jpg);
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4) ), url(../assets/images/pexels-jonathan-borba-2983101.jpg);
    
 }
 
@@ -102,7 +102,7 @@ section {
     background-color: #F58d17;
 }
 #preloader{
-    background: #000 url(./assets/images/preloader.gif) no-repeat center;
+    background: #000 url(../assets/images/preloader.gif) no-repeat center;
     background-size: 15%;
     height: 100vh;
     width: 100vw;
@@ -152,7 +152,7 @@ section {
 
 /* features */
 #features{
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.6) ), url(./assets/images/pexels-pixabay-262978.jpg);
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.6) ), url(../assets/images/pexels-pixabay-262978.jpg);
    
 }
 
@@ -190,7 +190,7 @@ section {
 
 /* reviews*/
 #reviews{
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.6) ), url(./assets/images/pexels-asad-photo-maldives-1449773.jpg);
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.6) ), url(../assets/images/pexels-asad-photo-maldives-1449773.jpg);
    
 }
 .review img{
@@ -285,7 +285,7 @@ section {
 
 
 footer {
-    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.8) ), url(./assets/images/pexels-asad-photo-maldives-1449773.jpg);
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.8) ), url(../assets/images/pexels-asad-photo-maldives-1449773.jpg);
    padding-top: 120px;
    padding-bottom: 30px;
 }
