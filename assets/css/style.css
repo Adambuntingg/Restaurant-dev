@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Spline+Sans:wght@400;500;600;700&display=swap');
+body{
+    font-family: 'Spline Sans', sans-serif;
+    color: #777;
+    line-height: 1.7;
+
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: 600;
+    color: #222;
+
+}
+
+a{
+    color: #222;
+    text-decoration: none;
+    transition: all 0.4s;
+    font-weight: 600;
+}
+
+a:hover {
+    color: #F58d17;
+
+}
+
+img {
+    width: 100%;
+}
+
+
+/* btn*/
+.btn{
+    border: 0;
+    padding: 14px 38px;
+}
+
+.btn-brand{
+    background-color: #f58d17;
+    font-weight: 500;
+    color: #fff;
+    border-color: #F58d17;
+}
+.btn-brand:hover{
+    border-color: #d47725;
+    background-color: #d47725;
+    color: #fff;
+}
+
+.bg-cover{
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+}
+
+/* slider */
+.slider-1 {
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4) ), url(/assets/images/pexels-pixabay-262978.jpg);
+}
+
+.slider-2 {
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4) ), url(/assets/images/pexels-jonathan-borba-2983101.jpg);
+   
+}
+
+#heroSlider h6::after,
+#heroSlider h6::before {
+    content: " ";
+    width: 40px;
+    height: 4px;
+    background-color: #fff;
+    border-color: #ffffff;
+    display: inline-block;
+    margin: 10px;
+    vertical-align: middle;
+    
+
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: rgba(0,0,0,0.5);
+    width: 40px;
+    height: 70px;
+    margin: auto;
+
+}
+
+section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+#about img{
+    padding-right: 50px;
+}
+
+/* about */
+#about .divider {
+    width: 60px;
+    height: 2px;
+    display: block;
+    background-color: #F58d17;
+}
+#preloader{
+    background: #000 url(/assets/images/preloader.gif) no-repeat center;
+    background-size: 15%;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    z-index: 100;
+
+}
+
+/* Intro */
+.intro-text{
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.intro-text p {
+    max-width: 500px;
+    margin: 16px auto 0 auto;
+}
+
+/* Menu */
+#menu .nav-pills .nav-link {
+    background-color: #fff;
+    margin-left: 8px;
+    margin-right: 8px;
+    color: #222;
+    border-radius: 100px;
+    box-shadow: 0 10px 40px 0.1;
+}
+
+#menu .nav-pills .nav-link.active {
+    background-color: #F58d17;
+    color: #fff;
+}
+
+.menu-item .stars {
+    color: #F58d17;
+}
+
+
+.shadow-on-hover:hover {
+    box-shadow: 0 10px 40px rgba(0, 0 ,0 , 0.1);
+}
+
+.shadow-on-hover{
+    transition: all 0.4s;
+}
+
+/* features */
+#features{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.6) ), url(/assets/images/pexels-pixabay-262978.jpg);
+   
+}
+
+#features .container{
+    transition: all 0.5s ease-in-out;
+}
+
+.feature{
+    border: 2px solid rgb(255, 255, 255, 0.2);
+}
+
+.feature .feature-icon {
+    width: 80px;
+    height: 80px;
+    background-color: #F58d17;
+    color: #fff;
+    font-size: 28px;
+    display: inline-grid;
+    align-content: center;
+    text-align: center;
+}
+ .textop{
+    opacity: 0.75;
+}
+
+#team img{
+    border-radius: 50%;
+}
+
+/* team */
+.team-member img {
+    max-width: 140px;
+    box-shadow: -10px -10px 0 #f58d17;
+}
+
+/* reviews*/
+#reviews{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.6) ), url(/assets/images/pexels-asad-photo-maldives-1449773.jpg);
+   
+}
+.review img{
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
+    border-radius: 50%;
+
+}
+.review .quote-icon{
+    font-size: 74px;
+    color: #F58d17;
+    line-height: 1;
+}
+
+.imgop{
+    opacity: 95%;
+}
+.review .stars{
+    color: #F58d17;
+}
+
+#reviews .carousel-indicators {
+    margin-bottom: -3rem;
+}
+
+
+/*reservation */
+#reservation .form-control {
+    border-radius: 0;
+}
+
+#reservation .form-control:focus {
+    box-shadow: none;
+    border-color: #F58d17;
+}
+
+#reservation input.form-control {
+    height: 47px;
+}
+
+#blog img {
+    max-height: 240px;
+    min-height: 240px;
+}
+
+/* Insta posts */
+.insta-posts{
+    position: relative;
+    overflow: hidden;
+}
+.insta-posts .insta-btn {
+    width: 90px;
+    height: 90px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 24px;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
+.insta-posts img {
+    transition: all 0.4s;
+}
+
+.insta-posts:hover img {
+    transform: scale(1.2)
+} 
+
+.insta-posts:hover .insta-btn {
+    opacity: 1;
+}
+
+.blog-post img {
+    width: 40%;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .blog-post{
+        flex-direction: column;
+    }
+    .blog-post img{
+        width: 100%;
+    }
+}
+
+
+footer {
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.8) ), url(/assets/images/pexels-asad-photo-maldives-1449773.jpg);
+   padding-top: 120px;
+   padding-bottom: 30px;
+}
+
+footer p{
+    color: rgb(255, 255, 255, 0.75);
+}
+
+footer h1{
+    color: rgb(255, 255, 255, 0.75);
+}
+
+footer .social-links a {
+    color: rgb(255, 255, 255, 0.75);
+    font-weight: normal;
+    font-size: 1.2rem;
+    margin-right: 10px;
+}
+
+.footer-bottom{
+    padding-top: 30px;
+    border-top: 1px solid  rgb(255, 255, 255, 0.2);
+}
+.footer-top{
+    margin-bottom: 30px;
+}
